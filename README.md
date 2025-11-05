@@ -2,6 +2,14 @@
 
 This project is a full-stack clone of the popular ride-sharing service, Uber. It includes a React-based frontend for the user and driver interfaces, and a Node.js backend with Express and MongoDB for the server-side logic.
 
+---
+
+## 🚀 Live Demo
+  Experience the platform in action:
+  👉 [https://uber-clone-ten-gilt.vercel.app/](https://uber-clone-ten-gilt.vercel.app/)
+
+---
+
 ## Table of Contents
 
 - [Features](#features)
