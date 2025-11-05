@@ -2,7 +2,7 @@ import React from 'react'
 
 const WaitingForDriver = (props) => {
   return (
-    <div className="max-h-[90vh] overflow-y-auto px-4 pb-16 pt-10 relative bg-white rounded-t-2xl">
+    <div>
       <h5 className='p-1 text-center w-[93%] absolute top-0' onClick={() => {
         props.waitingForDriver(false)
       }}><i className="text-3xl text-gray-200 ri-arrow-down-wide-line"></i></h5>
