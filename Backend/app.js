@@ -15,14 +15,23 @@ const paymentRoutes = require("./routes/payment");
 
 connectToDB();
 
-app.use(cors());
+app.use(
+    cors({
+        origin: "https://uber-clone-ten-gilt.vercel.app",
+        credentials: true,
+    })
+);
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(cookieParser());
 
-app.get("/", (req,res) => {
-    res.send("Hello World");
+app.get("/", (req, res) => {
+	return res.json({
+		success:true,
+		message:'Your server is up and running....'
+	});
 });
+
 app.use("/users", userRoutes);
 app.use("/captains", captainRoutes);
 app.use("/maps", mapsRoutes);
