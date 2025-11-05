@@ -51,6 +51,8 @@ This project is a full-stack clone of the popular ride-sharing service, Uber. It
 
 The project is organized into two main directories: `frontend` and `backend`.
 
+```
+
 ├── .gitignore
 ├── README.md
 ├── backend/
@@ -146,6 +148,8 @@ The project is organized into two main directories: `frontend` and `backend`.
 │    ├── UserSignup.jsx
 │    └── VerifyEmail.jsx
 
+```
+
 ## Getting Started
 
 ### Prerequisites
@@ -161,7 +165,7 @@ The project is organized into two main directories: `frontend` and `backend`.
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/uber-clone.git
+    git clone [https://github.com/indrajeetPanjiyar/UBER_CLONE](https://github.com/indrajeetPanjiyar/UBER_CLONE)
     cd uber-clone
     ```
 
