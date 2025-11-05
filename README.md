@@ -165,7 +165,7 @@ The project is organized into two main directories: `frontend` and `backend`.
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/indrajeetPanjiyar/UBER_CLONE](https://github.com/indrajeetPanjiyar/UBER_CLONE)
+    git clone https://github.com/indrajeetPanjiyar/UBER_CLONE
     cd uber-clone
     ```
 
